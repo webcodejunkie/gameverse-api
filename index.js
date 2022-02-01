@@ -42,6 +42,10 @@ let auth = require('./auth')(app);
 const passport = require('passport'); // Authenticator Module for Token Logic
 require('./passport');
 
+app.get('/', (req, res) => {
+  res.send('Application running.');
+})
+
 app.post('/register', [
   check('Username', 'Username is required').not().isEmpty(),
   check('Username', 'Username is required').isLength({ min: 5 }),
