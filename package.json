@@ -1,0 +1,37 @@
+{
+  "name": "gameverse-api",
+  "version": "1.0.0",
+  "description": "API for gameverse, a complete Fullstack application",
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webcodejunkie/gameverse-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webcodejunkie/gameverse-api/issues"
+  },
+  "homepage": "https://github.com/webcodejunkie/gameverse-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.9",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
